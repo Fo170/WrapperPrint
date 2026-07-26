@@ -1,12 +1,12 @@
 /*
-  ServerPrint.h - Wrapper Print -> WebServer::sendContent (chunked), multi-plateforme
+  WrapperPrint.h - Wrapper Print -> WebServer::sendContent (chunked), multi-plateforme
   Auteur    : Olivier FOURNET
   License   : GPL-3.0
 
   Compatible ESP8266, ESP32 et toute plateforme dont le serveur Web expose sendContent().
 
   Utilisation :
-    #include "ServerPrint.h"
+    #include "WrapperPrint.h"
 
     // ESP8266 / ESP32 : alias automatique
     ServerPrint out(server);
@@ -17,8 +17,8 @@
     maLibrairie.streamXXX(out);   // zero-copy vers le client HTTP
 */
 
-#ifndef SERVER_PRINT_H
-#define SERVER_PRINT_H
+#ifndef WRAPPER_PRINT_H
+#define WRAPPER_PRINT_H
 
 #include <Arduino.h>
 
@@ -80,4 +80,4 @@ private:
   using ServerPrint = ServerPrintT<WebServer>;
 #endif
 
-#endif // SERVER_PRINT_H
+#endif // WRAPPER_PRINT_H

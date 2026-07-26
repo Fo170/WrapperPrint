@@ -1,4 +1,4 @@
-# ServerPrint
+# WrapperPrint
 
 [![GitHub](https://img.shields.io/badge/GitHub-Fo170/WrapperPrint-blue?logo=github)](https://github.com/Fo170/WrapperPrint)
 
@@ -32,7 +32,7 @@ lib_deps =
 
 ### Arduino IDE
 
-Copiez `ServerPrint.h` dans le dossier `src/` ou `lib/ServerPrint/` de votre projet, ou téléchargez depuis [GitHub](https://github.com/Fo170/WrapperPrint).
+Copiez `WrapperPrint.h` dans le dossier `src/` ou `lib/ServerPrint/` de votre projet, ou téléchargez depuis [GitHub](https://github.com/Fo170/WrapperPrint).
 
 ---
 
@@ -41,7 +41,7 @@ Copiez `ServerPrint.h` dans le dossier `src/` ou `lib/ServerPrint/` de votre pro
 ### ESP8266 / ESP32 (détection automatique)
 
 ```cpp
-#include "ServerPrint.h"
+#include "WrapperPrint.h"
 
 // ESP8266
 ESP8266WebServer server(80);
@@ -63,7 +63,7 @@ void handleRoot() {
 ### Autre plateforme (template explicite)
 
 ```cpp
-#include "ServerPrint.h"
+#include "WrapperPrint.h"
 
 MonWebServer serveur(80);
 
@@ -108,7 +108,7 @@ void handleRoot() {
 ```cpp
 #include <ESP8266WebServer.h>
 #include <Graphique_Asynchrone.h>
-#include "ServerPrint.h"
+#include "WrapperPrint.h"
 
 ESP8266WebServer server(80);
 GraphiqueAsync gph(2, 60);

@@ -2,7 +2,7 @@
 
 ## Repo structure
 
-Single-header Arduino library (`ServerPrint.h`) — no build system, no tests, no CI, no package manifests.
+Single-header Arduino library (`WrapperPrint.h`) — no build system, no tests, no CI, no package manifests.
 
 ## Key architecture
 
