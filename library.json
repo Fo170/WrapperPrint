@@ -24,5 +24,8 @@
     }
   ],
   "platforms": ["espressif8266", "espressif32"],
-  "frameworks": ["arduino"]
+  "frameworks": ["arduino"],
+  "export": {
+    "include": ["WrapperPrint.h", "README.md"]
+  }
 }
