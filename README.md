@@ -27,7 +27,7 @@ Ajoutez à `platformio.ini` :
 
 ```ini
 lib_deps =
-    https://github.com/Fo170/WrapperPrint.git
+    https://github.com/Fo170/WrapperPrint.git@^1.0.0
 ```
 
 ### Arduino IDE
