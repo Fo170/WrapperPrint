@@ -1,0 +1,28 @@
+{
+  "name": "WrapperPrint",
+  "version": "1.0.0",
+  "description": "Wrapper multi-plateforme Print → WebServer::sendContent() pour Arduino / ESP8266 / ESP32",
+  "keywords": [
+    "arduino",
+    "esp8266",
+    "esp32",
+    "print",
+    "webserver",
+    "chunked",
+    "streaming",
+    "http"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fo170/WrapperPrint.git"
+  },
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Olivier FOURNET",
+      "email": "olivier.fournet@free.fr"
+    }
+  ],
+  "platforms": ["espressif8266", "espressif32"],
+  "frameworks": ["arduino"]
+}
