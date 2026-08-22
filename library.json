@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/Fo170/WrapperPrint.git"
   },
-  "license": "GPL-3.0",
+  "license": "GPL-3.0-only",
   "authors": [
     {
       "name": "Olivier FOURNET",
